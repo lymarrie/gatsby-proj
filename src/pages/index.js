@@ -14,7 +14,7 @@ export default function Home({ data }) {
             border-bottom: 1px solid;
           `}
         >
-          Amazing Pandas - and Luc - Eating Things
+          Amazing Pandas - and LUC - Eating Things
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
